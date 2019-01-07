@@ -1,26 +1,43 @@
-<!DOCTYPE html>
-<script>window.texme = { style: 'none' }</script>
-<script src="https://cdn.jsdelivr.net/npm/texme@0.6.0"></script>
-<style>
-body {
-  background: lightcyan;
-}
-main {
-  max-width: 20em;
-  padding: 1em;
-  border: medium double gray;
-  margin: 2em auto;
-  background: lightyellow;
-}
-</style>
-<textarea>
+# texme
 
-# 这是一个新的工具
+仓库连接: https://github.com/susam/texme
+
+#@ 简单使用
 
 可以直接在md格式的html文件中插入一个脚本链接，提供渲染支持。
 
-这里是一个例子：
+这里是几个例子，前两个是最简单的。
 
+```
+<!DOCTYPE html><script src="https://cdn.jsdelivr.net/npm/texme@0.6.0"></script><textarea>
+
+# Euler's Identity
+
+In mathematics, **Euler's identity** is the equality
+$$ e^{i \pi} + 1 = 0. $$
+
+## Explanation
+
+Euler's identity is a special case of Euler's formula from complex
+analysis, which states that for any real number $ x $,
+$$ e^{ix} = \cos x + i \sin x. $$
+```
+
+```
+# Euler's Identity
+
+In mathematics, **Euler's identity** is the equality
+$$ e^{i \pi} + 1 = 0. $$
+
+## Explanation
+
+Euler's identity is a special case of Euler's formula from complex
+analysis, which states that for any real number $ x $,
+$$ e^{ix} = \cos x + i \sin x. $$
+
+<script src="https://cdn.jsdelivr.net/npm/texme@0.6.0"></script>
+```
+  
 ```
 In mathematics, **Euler's identity** is the equality
 $$ e^{i \pi} + 1 = 0. $$
@@ -71,3 +88,4 @@ scientific mainstream in the early 19th century when discoveries in the
 field of chemistry showed that matter did indeed behave as if it were
 made up of atoms.
 ```
+<script src="https://cdn.jsdelivr.net/npm/texme@0.6.0"></script>
