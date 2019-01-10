@@ -1,9 +1,3 @@
-<!DOCTYPE html>
-<html lang="zh">
-<title>Notes on Euler's Identity</title>
-<script src="https://cdn.jsdelivr.net/npm/texme@0.6.0"></script>
-<textarea>
-
 # texme
 
 仓库连接: https://github.com/susam/texme
@@ -72,5 +66,3 @@ made up of atoms.
 或者使用`texme`的附加支持
 
 可见文档：https://github.com/susam/texme#render-markdown-without-mathjax
-
-</textarea>
